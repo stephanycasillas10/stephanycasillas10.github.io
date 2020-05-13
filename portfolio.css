@@ -1,0 +1,17 @@
+body{
+  background-color:darkgray;
+}
+
+img{
+  width:400px;
+  margin-left:30%;
+}
+h1{
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align:center;
+  background-color:darksalmon;
+  border:5px solid white;
+}
+a,p{
+  font-family: 'Open Sans Condensed', sans-serif;
+}
