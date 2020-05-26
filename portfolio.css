@@ -2,16 +2,20 @@
   background-color:white;
 } */
 
-/* img{
+img{
   width:400px;
   margin-left:30%;
-} */
-/* h1{
-  font-family: Raleway;
+}
+h1 {
+  font-size: 50px;
+  word-break: break-all;
   text-align:center;
-  background-color:darksalmon;
-  border:5px solid white;
-} */
+
+}
+h3{
+ font-family:Raleway;
+ text-align:center;
+}
 .heading{
   font-family:Raleway;
   background-color: #373738;
@@ -22,6 +26,7 @@
 }
 a,p{
   font-family: Raleway;
+  color:white;
 }
 
 .btn{
@@ -47,4 +52,12 @@ nav{
   background-color: #272b30;
   padding: 10px;
   border-radius: 10px;
+}
+.description{
+    text-align:center;
+}
+.content {
+  background-color: #272b30;
+  padding: 10px;
+  color: white;
 }
