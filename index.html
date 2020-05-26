@@ -1,19 +1,20 @@
 <!-- MAIN (Center website) -->
-<div class="main">
-<head>
 <!-- git status
 git add .
 git commit -m "insert comment (be specific about what you updated!)"
-git push -->
+git push origin master -->
 
+<!-- python3 -m http.server 3000 -->
+<div class="main">
+    <head>
+        <title>My Fellowship Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" charset="utf-8"></script>
+        <link href="https://fonts.googleapis.com/css?family=Gugi" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+        <!-- <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet"> -->
 
-  <title>My Fellowship Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js" charset="utf-8"></script>
-  <link href="https://fonts.googleapis.com/css?family=Gugi" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
-
-</head>
+    </head>
 
 <div class="heading">
   <h1>Stephany Casillas</h1>
@@ -24,44 +25,44 @@ git push -->
 <br>
 <div id = 'myBtnContainer'>
   <nav>
-
-  <!--the filter selection function, filters rows according to the class they're in.
-      Notice the class projects called in the filter function and the projects class on line 45.
-      Bonus points if you can rewrite the filterSelection function yourself-->
-<!-- Add more rows to modify your new website. After doing so, add your classes to the filterSelection function, and Don't forget to have a button set up to call it! -->
-  <button class="btn"> Home</button>
+   <button class="btn"> Home</button>
    <button onclick= "window.location.href= 'portfolio.html';"class="btn"> Portfolio</button>
+   <button onclick= "window.location.href= 'resume.html';"class="btn"> Resume</button>
+
   </nav>
 </div>
 
 <br>
 
-<div class="Content">
+<div class="content">
   <h1>Who am I?</h1>
-  <div class="ccpa center-container">
-    <div style="width:100%">
-      <img    src="https://www.ousd.org/cms/lib/CA01001176/Centricity/Domain/4037/CCPA_Banner.jpg">
+    <div class="center-container">
+        <!-- <div style="width:100%"> -->
+            <img src="https://www.ousd.org/cms/lib/CA01001176/Centricity/Domain/4037/CCPA_Banner.jpg">
+    <!-- </div> -->
+    <!-- <div style="width:100%">
     </div>
-    <div style="width:100%">
-      <p>I attend C.C.P.A</p>
-      </div>
-  </div>
-  <div class="2021 center-container">
-    <img src="11th grade.jpg">
-    <p>I am an 11th grader</p>
- </div>
+    </div>
+    <div class="center-container"> -->
+        <img src="11th grade.jpg">
+        
+    </div>
+    <div class="description">
+        <p>I am currently a junior in high school attending C.C.P.A.</p>
+    </div>
 </div>
-
-<h2>Hobbies</h2>
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMdU3IcFa1ZbTqaLzEGsyHleylS3n21jYO7ap5QC7mswp5u3cQag">
-
-<!-- It is essential for your online portfolio to be viewable from most common screens. ie; monitors and phones
-    Check out the viewport code from line 114 to line 121 in landing.css to learn how this website will scale with screen size-->
-<p>I enjoy drawing.</p>
-
-<img src="">
-
-
+<br>
+<div class="content">
+    <div class="center-container">
+        <h2>Hobbies</h2>
+        <img src="earth.jpg">
+        <img src="moon.jpg">
+        <img src="waterfall.jpg">
+    </div>
+    <div class="description">
+        <p>I enjoy expressing my creativity by making art on my free time.</p>
+    </div>
+</div>
 <br>
 
 <div class="row">
@@ -71,7 +72,7 @@ git push -->
       <h3>React Project</h3>
       <p>Lorem ipsum..</p>
     </div>
-  </div>
+</div>
 
   <!-- Portfolio Gallery Grid -->
 
@@ -120,7 +121,7 @@ git push -->
   <img src="headshot.jpg">
   <p>Copy Righted CodeNation 2018</p>
   <p>Contact Info:
-    Email- @s_stephany.casillas@ousd.org
+    Email- @stephanycasillas7@gmail.com
     Gitub-stephanycasillas10
     LinkedIn-stephanycasillas
                    

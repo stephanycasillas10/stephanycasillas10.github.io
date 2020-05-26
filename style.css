@@ -1,17 +1,18 @@
 * {
   box-sizing: border-box;
 }
-
+.description{
+    text-align:center;
+}
 body {
-  background-color: #abcfe0da;
+  background-color: white;
   padding: 20px;
-  font-family: Quicksand;
+  font-family: Raleway;
 }
 
 .heading{
   background-color: #373738;
   border:5px solid white;
-  
   color: #efeff2;
   padding: 1em;
 }
@@ -29,7 +30,7 @@ h1 {
 
 }
 h2{
-   font-family: 'Quicksand';
+   font-family: Raleway;
    text-align:center;
 }
 
